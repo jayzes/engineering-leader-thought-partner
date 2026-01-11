@@ -88,6 +88,10 @@ This thought partner synthesizes ideas from:
   - Books: *An Elegant Puzzle*, *Staff Engineer*, *The Engineering Executive's Primer*
 - **Jack Danger** - [Technical Coherence](https://jackdanger.com/technical-coherence/)
 
+## Acknowledgments
+
+This project was inspired by [@breethomas](https://github.com/breethomas)'s [pm-thought-partner](https://github.com/breethomas/pm-thought-partner).
+
 ## Contributing
 
 Issues and PRs welcome. See `ideas/` for planned enhancements.
