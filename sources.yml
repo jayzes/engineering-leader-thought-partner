@@ -1,0 +1,59 @@
+# Sources and Attribution
+#
+# This thought partner synthesizes ideas from the following sources.
+# All frameworks and content are adapted and summarized for practical application.
+
+sources:
+  - name: Will Larson
+    type: thought-leader
+    websites:
+      - url: https://lethain.com/
+        description: Engineering leadership blog
+      - url: https://staffeng.com/
+        description: Staff engineer guides and interviews
+      - url: https://infraeng.dev/
+        description: Infrastructure engineering organization
+    books:
+      - title: An Elegant Puzzle
+        subtitle: Systems of Engineering Management
+        year: 2019
+      - title: Staff Engineer
+        subtitle: Leadership Beyond the Management Track
+        year: 2021
+      - title: The Engineering Executive's Primer
+        year: 2024
+    frameworks_adapted:
+      - Staff Archetypes
+      - Engineering Strategy (Diagnosis → Policies → Actions)
+      - Trunk and Branches
+      - First 90 Days
+      - Systems Thinking for Organizations
+
+  - name: Jack Danger
+    type: thought-leader
+    websites:
+      - url: https://jackdanger.com/technical-coherence/
+        description: Technical Coherence framework
+    frameworks_adapted:
+      - Technical Coherence (UX Domains, Shared Domains, Three Layers)
+
+  - name: Richard Rumelt
+    type: reference
+    books:
+      - title: Good Strategy Bad Strategy
+        year: 2011
+    note: Strategy framework (Diagnosis, Guiding Policies, Coherent Actions) adapted via Will Larson
+
+  - name: Donella Meadows
+    type: reference
+    books:
+      - title: Thinking in Systems
+        year: 2008
+    note: Systems thinking concepts adapted for organizational context
+
+attribution_note: |
+  This thought partner is an educational tool that synthesizes publicly available
+  ideas from the above sources. It is not affiliated with or endorsed by any of
+  these authors. For authoritative guidance, please consult the original sources.
+
+license: MIT

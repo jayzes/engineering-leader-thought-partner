@@ -1,0 +1,15 @@
+{
+  "name": "engineering-leader-thought-partner",
+  "version": "1.0.0",
+  "description": "A conversational engineering leadership advisor grounded in proven frameworks",
+  "author": "Jay Zeschin",
+  "license": "MIT",
+  "repository": "https://github.com/jayzes/engineering-leader-thought-partner",
+  "keywords": [
+    "engineering-leadership",
+    "staff-engineering",
+    "engineering-management",
+    "technical-strategy",
+    "organizational-design"
+  ]
+}
