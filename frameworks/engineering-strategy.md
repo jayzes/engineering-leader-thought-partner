@@ -1,6 +1,6 @@
 # Writing Engineering Strategy
 
-*Source: Will Larson - lethain.com*
+*Source: Will Larson - lethain.com, Crafting Engineering Strategy (2025)*
 
 ## What Strategy Is (and Isn't)
 
@@ -123,3 +123,19 @@ Writing the strategy is half the work. Communicating it is the other half:
 | For decision-making | For tracking |
 
 You need both. Strategy informs the roadmap.
+
+## Key Insight: Strategy Always Exists
+
+From *Crafting Engineering Strategy* (2025):
+
+> "There's always an engineering strategy, even if there's nothing written down."
+
+Most engineers claim their company doesn't have a clear strategy. But all companies follow some strategy—even if undocumented. The problem isn't the absence of strategy; it's that disorganized collections of ideas are often labeled as "strategy" when they're really just project lists or vision statements.
+
+Your job as a leader is to make the implicit strategy explicit, then determine if it's actually the right one.
+
+## Further Reading
+
+- **Crafting Engineering Strategy** (Will Larson, 2025) - Comprehensive guide with Wardley maps, systems models, and case studies
+- **Good Strategy Bad Strategy** (Richard Rumelt) - Origin of the Diagnosis → Policies → Actions framework
+- lethain.com/engineering-strategy/ - Ongoing blog posts on strategy
