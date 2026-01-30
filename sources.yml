@@ -14,20 +14,24 @@ sources:
       - url: https://infraeng.dev/
         description: Infrastructure engineering organization
     books:
-      - title: An Elegant Puzzle
-        subtitle: Systems of Engineering Management
-        year: 2019
+      - title: Crafting Engineering Strategy
+        year: 2025
+      - title: The Engineering Executive's Primer
+        year: 2024
       - title: Staff Engineer
         subtitle: Leadership Beyond the Management Track
         year: 2021
-      - title: The Engineering Executive's Primer
-        year: 2024
+      - title: An Elegant Puzzle
+        subtitle: Systems of Engineering Management
+        year: 2019
     frameworks_adapted:
       - Staff Archetypes
       - Engineering Strategy (Diagnosis → Policies → Actions)
+      - Crafting Engineering Strategy (comprehensive strategy framework)
       - Trunk and Branches
       - First 90 Days
       - Systems Thinking for Organizations
+      - AI Adoption for Engineering Leaders
 
   - name: Jack Danger
     type: thought-leader
