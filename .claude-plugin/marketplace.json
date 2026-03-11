@@ -1,0 +1,20 @@
+{
+  "name": "jayzes/engineering-leader-thought-partner",
+  "owner": {
+    "name": "Jay Zeschin"
+  },
+  "metadata": {
+    "description": "Engineering leadership thought partner plugins"
+  },
+  "plugins": [
+    {
+      "name": "engineering-leader-thought-partner",
+      "source": ".",
+      "description": "A conversational engineering leadership advisor grounded in proven frameworks",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jay Zeschin"
+      }
+    }
+  ]
+}

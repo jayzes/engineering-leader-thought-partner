@@ -45,8 +45,16 @@ This is a **sparring partner, not an assistant**. It will:
 
 ## Installation
 
-```bash
-claude plugin add jayzes/engineering-leader-thought-partner
+First, add the marketplace:
+
+```
+/plugin marketplace add jayzes/engineering-leader-thought-partner
+```
+
+Then install the plugin:
+
+```
+/plugin install engineering-leader-thought-partner@jayzes/engineering-leader-thought-partner
 ```
 
 ## Usage
