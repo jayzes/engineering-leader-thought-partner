@@ -9,7 +9,10 @@
   "plugins": [
     {
       "name": "engineering-leader-thought-partner",
-      "source": ".",
+      "source": {
+        "source": "github",
+        "repo": "jayzes/engineering-leader-thought-partner"
+      },
       "description": "A conversational engineering leadership advisor grounded in proven frameworks",
       "version": "1.0.0",
       "author": {
