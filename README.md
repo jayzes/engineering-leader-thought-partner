@@ -45,16 +45,9 @@ This is a **sparring partner, not an assistant**. It will:
 
 ## Installation
 
-### Option 1: Install as Plugin (Recommended)
-
 ```bash
-# From the repo root
-./install.sh
+claude plugin add jayzes/engineering-leader-thought-partner
 ```
-
-### Option 2: Manual Installation
-
-Copy the `.claude` and `.claude-plugin` directories to your Claude Code configuration.
 
 ## Usage
 
@@ -75,7 +68,7 @@ The thought partner will ask questions, suggest frameworks, and challenge your t
 ├── commands/          # Slash commands
 ├── frameworks/        # Decision-making models and methodologies
 ├── thought-leaders/   # Curated content from industry experts
-├── skills/            # Reusable capabilities
+├── skills/            # Auto-activating capabilities (subdirectories with SKILL.md)
 ├── templates/         # Artifacts: specs, strategies, ladders
 └── ideas/             # Future enhancements
 ```
@@ -86,6 +79,8 @@ This thought partner synthesizes ideas from:
 
 - **Will Larson** - [lethain.com](https://lethain.com), [staffeng.com](https://staffeng.com), [infraeng.dev](https://infraeng.dev)
   - Books: *An Elegant Puzzle*, *Staff Engineer*, *The Engineering Executive's Primer*
+- **Lara Hogan** - [larahogan.me](https://larahogan.me)
+  - Book: *Resilient Management*
 - **Jack Danger** - [Technical Coherence](https://jackdanger.com/technical-coherence/)
 
 ## Acknowledgments
