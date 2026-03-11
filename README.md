@@ -54,7 +54,7 @@ First, add the marketplace:
 Then install the plugin:
 
 ```
-/plugin install engineering-leader-thought-partner@jayzes/engineering-leader-thought-partner
+/plugin install engineering-leader-thought-partner@jayzes-engineering-leader-thought-partner
 ```
 
 ## Usage
