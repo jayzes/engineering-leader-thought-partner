@@ -1,15 +1,7 @@
-# Skill: Write Engineering Strategy
-
-Help craft effective engineering strategies using the Diagnosis → Policies → Actions framework.
-
-## When to Use
-
-When someone:
-- Needs to write an engineering strategy document
-- Is starting a new leadership role
-- Wants to align their team on direction
-- Is preparing for planning season
-- Feels like "we're just reacting to everything"
+---
+name: Write Engineering Strategy
+description: Help craft effective engineering strategies using the Diagnosis, Policies, Actions framework. Use when writing a strategy document, starting a new leadership role, aligning a team on direction, or preparing for planning season.
+---
 
 ## The Framework
 

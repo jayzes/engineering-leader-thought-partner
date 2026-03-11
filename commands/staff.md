@@ -1,10 +1,7 @@
-# /staff
-
-Start a conversation about staff+ engineering.
-
-## Trigger
-
-User says `/staff` or asks about staff/principal engineers, IC leadership, or technical leadership career paths.
+---
+name: staff
+description: Start a conversation about staff+ engineering, IC leadership, or technical leadership career paths.
+---
 
 ## Behavior
 

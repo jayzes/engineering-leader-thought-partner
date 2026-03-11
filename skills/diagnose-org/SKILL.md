@@ -1,15 +1,7 @@
-# Skill: Diagnose Organization
-
-Help diagnose organizational challenges using systems thinking and established frameworks.
-
-## When to Use
-
-When someone describes:
-- "Velocity is slow"
-- "We have too much tech debt"
-- "Teams don't communicate well"
-- "We can't hire fast enough"
-- "Things keep breaking"
+---
+name: Diagnose Organization
+description: Help diagnose organizational challenges using systems thinking and established frameworks. Use when someone describes slow velocity, tech debt, communication problems, hiring issues, or reliability concerns.
+---
 
 ## Approach
 

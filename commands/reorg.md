@@ -1,10 +1,7 @@
-# /reorg
-
-Start an organizational design conversation.
-
-## Trigger
-
-User says `/reorg` or asks about team structure, org design, or reorganizations.
+---
+name: reorg
+description: Start an organizational design conversation. Use for team structure, org design, or reorganizations.
+---
 
 ## Behavior
 

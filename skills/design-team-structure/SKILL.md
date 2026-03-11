@@ -1,15 +1,7 @@
-# Skill: Design Team Structure
-
-Help design engineering team structures that align with product architecture and organizational goals.
-
-## When to Use
-
-When someone:
-- Is planning a reorg
-- Adding headcount and deciding where to put people
-- Seeing coordination problems between teams
-- Wondering if their current structure makes sense
-- Starting fresh with a new org
+---
+name: Design Team Structure
+description: Help design engineering team structures that align with product architecture and organizational goals. Use when planning a reorg, adding headcount, seeing coordination problems, or evaluating current structure.
+---
 
 ## Frameworks to Apply
 

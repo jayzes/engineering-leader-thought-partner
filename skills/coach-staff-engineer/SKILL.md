@@ -1,14 +1,7 @@
-# Skill: Coach Staff Engineer
-
-Help staff+ engineers navigate their role, increase impact, and develop their careers.
-
-## When to Use
-
-When someone:
-- Is new to staff+ and finding their footing
-- Feels stuck or unclear on how to have impact
-- Is considering staff+ and wondering what it takes
-- Manages staff+ engineers and wants to support them better
+---
+name: Coach Staff Engineer
+description: Help staff+ engineers navigate their role, increase impact, and develop their careers. Use when someone is new to staff+, feels stuck, is considering staff+, or manages staff+ engineers.
+---
 
 ## Key Questions to Explore
 
@@ -69,7 +62,6 @@ Explore:
 ## Frameworks to Reference
 
 - **Staff Archetypes** (frameworks/staff-archetypes.md)
-- **Engineering Strategy** (frameworks/engineering-strategy.md)
 - **Systems Thinking** (frameworks/systems-thinking.md)
 
 ## Output

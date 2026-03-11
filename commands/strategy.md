@@ -1,10 +1,7 @@
-# /strategy
-
-Start a strategy development conversation.
-
-## Trigger
-
-User says `/strategy` or asks about writing/reviewing engineering strategy.
+---
+name: strategy
+description: Start a strategy development conversation. Use when writing, reviewing, communicating, or evaluating engineering strategy.
+---
 
 ## Behavior
 

@@ -1,10 +1,7 @@
-# /new-role
-
-Start a conversation about transitioning into a new engineering leadership role.
-
-## Trigger
-
-User says `/new-role` or mentions starting a new EM, Director, VP, CTO, or staff role.
+---
+name: new-role
+description: Start a conversation about transitioning into a new engineering leadership role (EM, Director, VP, CTO, or staff).
+---
 
 ## Behavior
 
