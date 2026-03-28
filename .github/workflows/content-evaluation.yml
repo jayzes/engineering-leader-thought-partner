@@ -1,0 +1,83 @@
+name: Content Evaluation
+
+on:
+  # Manual trigger for full evaluation
+  workflow_dispatch:
+    inputs:
+      scope:
+        description: 'Evaluation scope'
+        required: true
+        default: 'changed'
+        type: choice
+        options:
+          - changed  # Only evaluate changed files
+          - full     # Evaluate entire repository
+      focus:
+        description: 'Evaluation focus area (optional)'
+        required: false
+        type: string
+
+  # Run on PRs that modify content files
+  pull_request:
+    paths:
+      - 'thought-leaders/**'
+      - 'frameworks/**'
+      - 'sources.yml'
+      - 'CLAUDE.md'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run Content Evaluation
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt_file: .github/prompts/content-evaluation.md
+          model: claude-sonnet-4-20250514
+          allowed_tools: "Read,Glob,Grep,Bash(git diff*)"
+        env:
+          EVAL_SCOPE: ${{ inputs.scope || 'changed' }}
+          EVAL_FOCUS: ${{ inputs.focus || '' }}
+
+  # Lightweight structural checks that don't require AI
+  structural-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check YAML validity
+        run: |
+          echo "Checking sources.yml..."
+          python3 -c "import yaml; yaml.safe_load(open('sources.yml'))" && echo "Valid YAML"
+
+      - name: Check for required sections in thought-leader files
+        run: |
+          echo "Checking thought-leader file structure..."
+          for file in thought-leaders/*.md; do
+            echo "Checking $file..."
+            grep -q "^# " "$file" || echo "Missing title in $file"
+            grep -q "^\*\*Role\*\*:" "$file" || echo "Missing Role in $file"
+            grep -q "^## Key Works" "$file" || echo "Missing Key Works section in $file"
+          done
+
+      - name: Check for broken internal links
+        run: |
+          echo "Checking for broken internal references..."
+          # Extract references to other files and verify they exist
+          grep -roh '\[.*\](\.\.\/[^)]*\.md)' --include="*.md" | \
+            sed 's/.*(\(.*\))/\1/' | sort -u | while read ref; do
+              if [ ! -f "$ref" ]; then
+                echo "Broken link: $ref"
+              fi
+            done || true
