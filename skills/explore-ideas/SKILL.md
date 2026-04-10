@@ -41,6 +41,8 @@ Draw from the full range of thought leaders and frameworks. Offer 2-3 lenses tha
 
 **Strategic lens** (Will Larson): What's the diagnosis? What policies would address it? What tradeoffs are you making?
 
+**Scalability lens** (Fisher & Abbott): Which axis of the Scale Cube is the bottleneck? Where are the swim lanes? What's shared across failure domains? Is complexity the real enemy?
+
 Don't force all perspectives — surface the 2-3 that are most relevant and let the conversation develop.
 
 ### 3. Explore, Don't Prescribe

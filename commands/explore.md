@@ -21,6 +21,7 @@ description: Start an open-ended brainstorming conversation. Use when thinking t
    - Technical Coherence (Jack Danger)
    - BICEPS and people dynamics (Lara Hogan)
    - Operational reality and ownership (Charity Majors)
+   - Scalability and architecture (Fisher & Abbott)
    - Engineering strategy (diagnosis → policies → actions)
 
 4. Follow the energy of the conversation — let it develop rather than forcing structure.

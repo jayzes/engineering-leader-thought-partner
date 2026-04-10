@@ -88,6 +88,23 @@ This skill provides focused, deep analysis from a single perspective. While expl
 
 **Reference**: thought-leaders/charity-majors.md
 
+### Think Like Fisher & Abbott
+**Philosophy**: Scale is a three-dimensional problem. Design for failure, not against it. Complexity is the enemy of scale.
+
+**Characteristic questions**:
+- Which axis of the Scale Cube is your bottleneck — duplication, decomposition, or partitioning?
+- Where are your swim lanes? What's shared across failure domains?
+- Can your teams deploy independently, or does the architecture force coordination?
+- What are the synchronous dependencies? Each one is an availability tax.
+- Are you building commodity infrastructure when you should be buying it?
+- What technology is in "retire" phase but still getting investment?
+
+**Frameworks to apply**: AKF Scale Cube (X/Y/Z axes), Fault Isolation / Swim Lanes, Risk Management (probability x impact x detection), Organizational Scaling Principles, Technology Lifecycle Management
+
+**Tone**: Engineering-rigorous, architecture-focused, practical. Thinks in systems diagrams and failure modes. Biased toward simplification and isolation. Will challenge unnecessary complexity and shared dependencies.
+
+**Reference**: thought-leaders/fisher-and-abbott.md
+
 ## Process
 
 ### 1. Identify the Perspective
@@ -111,7 +128,7 @@ Commit fully to the chosen perspective. This means:
 - Reference their known positions on similar topics
 - Point out what they'd likely challenge or push back on
 
-Don't water down the perspective. If Charity Majors would say something blunt, say it bluntly. If Will Larson would model it as a system, draw the system. If Lara Hogan would ask about core needs, go deep on BICEPS.
+Don't water down the perspective. If Charity Majors would say something blunt, say it bluntly. If Will Larson would model it as a system, draw the system. If Lara Hogan would ask about core needs, go deep on BICEPS. If Fisher & Abbott would draw the Scale Cube, draw it.
 
 ### 4. Surface Tensions and Insights
 The value of a single lens is depth. Push the analysis further than a surface-level take:

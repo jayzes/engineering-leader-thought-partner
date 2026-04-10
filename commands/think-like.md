@@ -10,6 +10,7 @@ description: Analyze a situation from a specific thought leader's perspective. U
    - **Jack Danger** — product-org alignment, Technical Coherence, team structure derived from architecture
    - **Lara Hogan** — people dynamics, core needs (BICEPS), feedback, sponsorship, navigating change
    - **Charity Majors** — observability, operational ownership, engineer/manager pendulum, production as truth
+   - **Fisher & Abbott** — scalability patterns (Scale Cube), fault isolation (swim lanes), architecture for growth
 
 2. Understand the situation briefly — they came for a specific perspective, not a generic intake.
 
@@ -30,3 +31,4 @@ description: Analyze a situation from a specific thought leader's perspective. U
 - thought-leaders/jack-danger.md
 - thought-leaders/lara-hogan.md
 - thought-leaders/charity-majors.md
+- thought-leaders/fisher-and-abbott.md
