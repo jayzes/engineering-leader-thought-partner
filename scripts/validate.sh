@@ -148,6 +148,38 @@ for file in skills/*/SKILL.md commands/*.md; do
   done
 done
 
+# Helper: check if a thought leader name appears in a file.
+# Tries full display name, "And" -> "&" variant, and falls back to
+# checking that all significant name parts appear individually.
+name_found_in_file() {
+  local display_name="$1"
+  local file="$2"
+  local alt_name
+  alt_name=$(echo "$display_name" | sed 's/ And / \& /g')
+
+  # Try full name match first
+  if grep -qi "$display_name" "$file" 2>/dev/null; then return 0; fi
+  if [[ "$alt_name" != "$display_name" ]] && grep -qi "$alt_name" "$file" 2>/dev/null; then return 0; fi
+
+  # For compound names (contains "And"), check each significant part individually
+  if echo "$display_name" | grep -qi " and "; then
+    local all_found=true
+    for part in $(echo "$display_name" | sed 's/ /\n/g'); do
+      # Skip "And" — it's a connector, not a name
+      local lower_part
+      lower_part=$(echo "$part" | tr '[:upper:]' '[:lower:]')
+      if [[ "$lower_part" == "and" ]]; then continue; fi
+      if ! grep -qi "$part" "$file" 2>/dev/null; then
+        all_found=false
+        break
+      fi
+    done
+    if $all_found; then return 0; fi
+  fi
+
+  return 1
+}
+
 # ---------------------------------------------------------------------------
 # 5. Think Like skill covers all thought leaders
 # ---------------------------------------------------------------------------
@@ -157,10 +189,9 @@ think_like="skills/think-like/SKILL.md"
 if [[ -f "$think_like" ]]; then
   for profile in thought-leaders/*.md; do
     leader_name="$(basename "$profile" .md)"
-    # Convert filename to display name (e.g., "will-larson" -> "Will Larson")
     display_name=$(echo "$leader_name" | sed 's/-/ /g' | awk '{for(i=1;i<=NF;i++) $i=toupper(substr($i,1,1)) substr($i,2)} 1')
 
-    if grep -qi "$display_name" "$think_like"; then
+    if name_found_in_file "$display_name" "$think_like"; then
       pass "Think Like covers $display_name"
     else
       fail "Think Like missing perspective for $display_name"
@@ -181,7 +212,7 @@ if [[ -f "$claude_md" ]]; then
     leader_name="$(basename "$profile" .md)"
     display_name=$(echo "$leader_name" | sed 's/-/ /g' | awk '{for(i=1;i<=NF;i++) $i=toupper(substr($i,1,1)) substr($i,2)} 1')
 
-    if grep -qi "$display_name" "$claude_md"; then
+    if name_found_in_file "$display_name" "$claude_md"; then
       pass "CLAUDE.md references $display_name"
     else
       fail "CLAUDE.md missing reference to $display_name"
@@ -202,7 +233,7 @@ if [[ -f "$readme" ]]; then
     leader_name="$(basename "$profile" .md)"
     display_name=$(echo "$leader_name" | sed 's/-/ /g' | awk '{for(i=1;i<=NF;i++) $i=toupper(substr($i,1,1)) substr($i,2)} 1')
 
-    if grep -qi "$display_name" "$readme"; then
+    if name_found_in_file "$display_name" "$readme"; then
       pass "README.md references $display_name"
     else
       warn "README.md missing reference to $display_name"
