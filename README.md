@@ -1,6 +1,6 @@
 # Engineering Leader Thought Partner
 
-A Claude Code plugin that acts as a conversational engineering leadership advisor. Based on the work of Will Larson (lethain.com, staffeng.com, infraeng.dev) and Jack Danger's Technical Coherence framework.
+A Claude Code plugin that acts as a conversational engineering leadership advisor. Based on the work of Will Larson, Jack Danger, Lara Hogan, and Charity Majors.
 
 ## Philosophy
 
@@ -90,6 +90,8 @@ This thought partner synthesizes ideas from:
 - **Lara Hogan** - [larahogan.me](https://larahogan.me)
   - Book: *Resilient Management*
 - **Jack Danger** - [Technical Coherence](https://jackdanger.com/technical-coherence/)
+- **Charity Majors** - [charity.wtf](https://charity.wtf)
+  - Book: *Observability Engineering* (with Liz Fong-Jones and George Miranda)
 
 ## Acknowledgments
 

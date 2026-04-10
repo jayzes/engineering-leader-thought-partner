@@ -4,7 +4,7 @@ Ideas for expanding the Engineering Leader Thought Partner.
 
 ## Additional Thought Leaders
 
-- [ ] **Charity Majors** - Observability, engineering culture, management
+- [x] **Charity Majors** - Observability, engineering culture, management
 - [ ] **Camille Fournier** - Engineering management (The Manager's Path)
 - [ ] **Patrick Kua** - Tech lead patterns, talking with tech leads
 - [ ] **Gergely Orosz** - Engineering leadership (The Pragmatic Engineer)
