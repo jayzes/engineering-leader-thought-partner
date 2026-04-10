@@ -33,5 +33,5 @@ description: Start a conversation about staff+ engineering, IC leadership, or te
 ## Reference
 
 - frameworks/staff-archetypes.md
-- skills/coach-staff-engineer.md
+- skills/coach-staff-engineer/SKILL.md
 - templates/career-ladder.md

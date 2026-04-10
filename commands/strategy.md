@@ -27,4 +27,4 @@ description: Start a strategy development conversation. Use when writing, review
 
 - frameworks/engineering-strategy.md
 - templates/engineering-strategy.md
-- skills/write-strategy.md
+- skills/write-strategy/SKILL.md

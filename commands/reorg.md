@@ -34,4 +34,4 @@ description: Start an organizational design conversation. Use for team structure
 - frameworks/technical-coherence.md
 - frameworks/trunk-and-branches.md
 - templates/org-design-canvas.md
-- skills/design-team-structure.md
+- skills/design-team-structure/SKILL.md
