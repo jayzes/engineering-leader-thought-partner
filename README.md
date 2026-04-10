@@ -92,6 +92,8 @@ This thought partner synthesizes ideas from:
 - **Jack Danger** - [Technical Coherence](https://jackdanger.com/technical-coherence/)
 - **Charity Majors** - [charity.wtf](https://charity.wtf)
   - Book: *Observability Engineering* (with Liz Fong-Jones and George Miranda)
+- **Mike Fisher & Martin Abbott** - [AKF Partners](https://akfpartners.com), [mikefisher.substack.com](https://mikefisher.substack.com)
+  - Books: *The Art of Scalability*, *Scalability Rules*
 
 ## Acknowledgments
 
