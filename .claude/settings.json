@@ -3,5 +3,44 @@
     "allow": [],
     "deny": []
   },
-  "enableAllProjectMcpServers": true
+  "enableAllProjectMcpServers": true,
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "./scripts/validate.sh",
+            "if": "Edit(skills/** commands/** thought-leaders/** CLAUDE.md README.md)",
+            "statusMessage": "Validating plugin structure..."
+          }
+        ]
+      },
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "./scripts/validate.sh",
+            "if": "Write(skills/** commands/** thought-leaders/** CLAUDE.md README.md)",
+            "statusMessage": "Validating plugin structure..."
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "./scripts/validate.sh",
+            "if": "Bash(git commit*)",
+            "statusMessage": "Validating plugin structure before commit..."
+          }
+        ]
+      }
+    ]
+  }
 }
