@@ -24,6 +24,8 @@ The best engineering leaders often alternate between IC and management roles thr
 
 Key insight: management is not a promotion. It's a career change. And going back to IC is not a demotion. The industry gets this wrong constantly.
 
+Timing matters: the best frontline managers are never more than 2-3 years removed from hands-on work. Technical skills atrophy around 3 years out, and 5 years is a tipping point. Don't become a manager until you've accomplished what you want as a senior engineer — those skills only decay once you switch.
+
 ### Test in Production
 Not recklessness—rigor. Production is the only environment that matters. Invest in making production observable, debuggable, and safe to experiment in rather than trying to replicate it perfectly elsewhere.
 
@@ -41,6 +43,8 @@ This requires:
 - The ability to slice and dice in real time
 - A culture of curiosity about production behavior
 - Moving debugging upstream—engineers who write code should also debug it in production
+- Observability as a PR gate: just as you wouldn't accept a PR without tests, never accept one without answering "how will I know when this breaks?"
+- SLOs as team APIs: Service Level Objectives should be the entry point for engineering teams, not dashboards
 
 ### 2. The Engineer/Manager Pendulum
 Career advice framework:
@@ -111,6 +115,8 @@ The litmus test: when something breaks at 2am, does the person who gets paged ha
 > "Most people make better managers the second time around, because they went back and did IC work in between."
 
 > "The only way to know what your code does is to run it in production and look at it."
+
+> "Poor observability is the dark matter of engineering teams. It's why everything feels grindingly slow for no apparent reason."
 
 ## How to Apply Her Thinking
 
