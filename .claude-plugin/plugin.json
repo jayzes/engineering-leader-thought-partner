@@ -1,6 +1,6 @@
 {
-  "name": "engineering-leader-thought-partner",
-  "version": "2.0.0",
+  "name": "eltp",
+  "version": "2.0.1",
   "description": "A conversational engineering leadership advisor grounded in proven frameworks",
   "author": {
     "name": "Jay Zeschin"

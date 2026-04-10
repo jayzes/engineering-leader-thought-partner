@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.1 — 2026-04-10
+
+### Changed
+- Shortened plugin prefix from `engineering-leader-thought-partner` to `eltp` for easier skill invocation
+
 ## 2.0.0 — 2026-04-10
 
 ### New Thought Leaders
