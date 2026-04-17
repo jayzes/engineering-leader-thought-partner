@@ -11,6 +11,7 @@ description: Analyze a situation from a specific thought leader's perspective. U
    - **Lara Hogan** — people dynamics, core needs (BICEPS), feedback, sponsorship, navigating change
    - **Charity Majors** — observability, operational ownership, engineer/manager pendulum, production as truth
    - **Fisher & Abbott** — scalability patterns (Scale Cube), fault isolation (swim lanes), architecture for growth
+   - **Simon Wardley** — Wardley Mapping, evolution axis, doctrine, climatic patterns, stratagems, Pioneers/Settlers/Town Planners
 
 2. Understand the situation briefly — they came for a specific perspective, not a generic intake.
 
@@ -32,3 +33,5 @@ description: Analyze a situation from a specific thought leader's perspective. U
 - thought-leaders/lara-hogan.md
 - thought-leaders/charity-majors.md
 - thought-leaders/fisher-and-abbott.md
+- thought-leaders/simon-wardley.md
+- frameworks/wardley-mapping.md

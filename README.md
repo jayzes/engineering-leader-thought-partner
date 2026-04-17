@@ -1,6 +1,6 @@
 # Engineering Leader Thought Partner
 
-A Claude Code plugin that acts as a conversational engineering leadership advisor. Based on the work of Will Larson, Jack Danger, Lara Hogan, and Charity Majors.
+A Claude Code plugin that acts as a conversational engineering leadership advisor. Based on the work of Will Larson, Jack Danger, Lara Hogan, Charity Majors, Mike Fisher & Martin Abbott, and Simon Wardley.
 
 ## Philosophy
 
@@ -94,6 +94,8 @@ This thought partner synthesizes ideas from:
   - Book: *Observability Engineering* (with Liz Fong-Jones and George Miranda)
 - **Mike Fisher & Martin Abbott** - [AKF Partners](https://akfpartners.com), [mikefisher.substack.com](https://mikefisher.substack.com)
   - Books: *The Art of Scalability*, *Scalability Rules*
+- **Simon Wardley** - [LearnWardleyMapping.com](https://learnwardleymapping.com), [@swardley](https://twitter.com/swardley)
+  - Book: *Wardley Maps: Topographical Intelligence in Business* (Creative Commons)
 
 ## Acknowledgments
 

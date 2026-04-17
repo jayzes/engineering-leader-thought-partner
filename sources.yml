@@ -41,6 +41,26 @@ sources:
     frameworks_adapted:
       - Technical Coherence (UX Domains, Shared Domains, Three Layers)
 
+  - name: Simon Wardley
+    type: thought-leader
+    websites:
+      - url: https://learnwardleymapping.com/
+        description: Wardley Mapping community, tutorials, and classes
+      - url: https://twitter.com/swardley
+        description: Running commentary, map examples, strategic analysis
+    books:
+      - title: Wardley Maps
+        subtitle: Topographical Intelligence in Business
+        year: 2018
+        license: Creative Commons BY-SA 4.0
+    frameworks_adapted:
+      - Wardley Mapping (Anchor, Position, Movement, Components)
+      - Evolution axis (Genesis → Custom Built → Product → Commodity)
+      - Doctrine (Universal Principles)
+      - Climatic Patterns (Red Queen, Inertia, Co-evolution, Higher-order systems)
+      - Stratagems and Gameplays (Open source, FUD, Patents, ILC)
+      - Pioneers, Settlers, Town Planners (PST)
+
   - name: Richard Rumelt
     type: reference
     books:
