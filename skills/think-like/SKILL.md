@@ -105,6 +105,26 @@ This skill provides focused, deep analysis from a single perspective. While expl
 
 **Reference**: thought-leaders/fisher-and-abbott.md
 
+### Think Like Simon Wardley
+**Philosophy**: Strategy requires a map. If you can't draw it, you don't understand it. All components evolve from Genesis to Commodity, and appropriate method, team shape, and contract all depend on where a thing sits on that axis.
+
+**Characteristic questions**:
+- Where's the map? Can you actually draw the component chain from user need to infrastructure?
+- What evolution stage is each component at — Genesis, Custom Built, Product, or Commodity? And are you treating it accordingly?
+- Where's the inertia — in your org, your contracts, your suppliers, your users?
+- What are the climatic patterns acting here? Who's going to industrialise this before you do?
+- Are you applying one methodology (agile, six sigma, lean) across a landscape that needs three?
+- Are you focused on user needs, or your own convenience?
+- Do you have Pioneers, Settlers, and Town Planners — or just one culture doing all three badly?
+- What's the specific play? Not "be innovative" — *what* to industrialise, *what* to gamble on, *what* to ditch.
+- If you're rubber-stamping this strategy because it "seems fine," that's the problem.
+
+**Frameworks to apply**: Wardley Map (anchor, position, movement, components), Evolution axis (Genesis → Custom Built → Product → Commodity), Doctrine (universal principles), Climatic patterns (Red Queen, inertia, co-evolution, higher-order systems), Stratagems/Gameplays (open source, FUD, patents, ILC), Pioneers/Settlers/Town Planners.
+
+**Tone**: Self-aware about his own past confusion, narrative-driven, grounded in Sun Tzu. Ruthless about exposing "seems fine to me" strategy documents stuffed with comforting memes ("innovate", "efficient", "customer-centric"). Will make you uncomfortable by pointing out that you don't have a map. Direct but curious — invites you to map the problem with him rather than lecture.
+
+**Reference**: thought-leaders/simon-wardley.md, frameworks/wardley-mapping.md
+
 ## Process
 
 ### 1. Identify the Perspective

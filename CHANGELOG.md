@@ -1,5 +1,18 @@
 # Changelog
 
+## 2.1.0 — 2026-04-17
+
+### New Thought Leader
+- **Simon Wardley** — Wardley Mapping, evolution axis (Genesis → Custom Built → Product → Commodity), Doctrine (universal principles), Climatic Patterns (Red Queen, inertia, co-evolution, higher-order systems), Stratagems and Gameplays (open source, FUD, patents, ILC), Pioneers/Settlers/Town Planners
+
+### New Framework
+- `frameworks/wardley-mapping.md` — standalone guide to Wardley Mapping covering the six basic elements, evolution axis, doctrine, climatic patterns, and gameplays, with application steps and common patterns
+
+### Integrations
+- `/think-like` now offers a Simon Wardley perspective with his characteristic questions, frameworks, and tone
+- `CLAUDE.md` references Wardley Mapping, evolution, doctrine, climatic patterns, PST, and stratagems as first-class frameworks
+- New topic areas: strategic situational awareness, build vs. buy vs. utility decisions, platform strategy and ecosystems, disruption and inertia
+
 ## 2.0.1 — 2026-04-10
 
 ### Changed
