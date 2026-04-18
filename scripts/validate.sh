@@ -263,6 +263,32 @@ for cmd_file in commands/*.md; do
 done
 
 # ---------------------------------------------------------------------------
+# 9. Version parity: plugin.json and marketplace.json agree
+# ---------------------------------------------------------------------------
+section "Release — version parity"
+
+plugin_json=".claude-plugin/plugin.json"
+marketplace_json=".claude-plugin/marketplace.json"
+
+if [[ -f "$plugin_json" && -f "$marketplace_json" ]]; then
+  plugin_version=$(grep -oE '"version"[[:space:]]*:[[:space:]]*"[^"]+"' "$plugin_json" | head -1 | sed -E 's/.*"([^"]+)"$/\1/')
+  marketplace_version=$(grep -oE '"version"[[:space:]]*:[[:space:]]*"[^"]+"' "$marketplace_json" | head -1 | sed -E 's/.*"([^"]+)"$/\1/')
+
+  if [[ -z "$plugin_version" ]]; then
+    fail "plugin.json: could not read version field"
+  elif [[ -z "$marketplace_version" ]]; then
+    fail "marketplace.json: could not read version field"
+  elif [[ "$plugin_version" == "$marketplace_version" ]]; then
+    pass "plugin.json and marketplace.json both at $plugin_version"
+  else
+    fail "version mismatch: plugin.json=$plugin_version, marketplace.json=$marketplace_version (bump both when cutting a release)"
+  fi
+else
+  [[ ! -f "$plugin_json" ]] && fail "plugin.json not found"
+  [[ ! -f "$marketplace_json" ]] && fail "marketplace.json not found"
+fi
+
+# ---------------------------------------------------------------------------
 # Summary
 # ---------------------------------------------------------------------------
 printf "\n\033[1m─────────────────────────────────\033[0m\n"
