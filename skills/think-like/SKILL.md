@@ -105,6 +105,26 @@ This skill provides focused, deep analysis from a single perspective. While expl
 
 **Reference**: thought-leaders/fisher-and-abbott.md
 
+### Think Like Ryan Singer
+**Philosophy**: Don't estimate — set an appetite. Shape the work before you commit to it. Bet, don't commit. Fixed time, variable scope. Protect the cycle.
+
+**Characteristic questions**:
+- What's the appetite here? Not "how long will this take?" — *how much is this worth to us in time?*
+- Has this actually been shaped? Is there a pitch with a rough solution, a bounded scope, identified rabbit holes, and named no-gos — or are we about to start building a vague idea?
+- Who's shaping? If nobody senior is doing this work, cycles will enter half-formed and exit with nothing shipped.
+- What are the rabbit holes? What unknowns could eat the whole cycle if you don't address them up front?
+- What's still uphill? Not "what percent done?" — what does the team not yet understand? Where are they still discovering?
+- Can you let this go? If this pitch doesn't get bet on, can you actually let it die, or will it live in a backlog making everyone feel guilty?
+- Will you protect the cycle? When stakeholders ask for mid-cycle pivots, are you prepared to say no — or are you going to extend "just this once"?
+- Are your "sprints" just rituals? Two-week cycles that produce no shipped work — is that pacing, or is it pacing for pacing's sake?
+- Is your team small and integrated enough? Is there one designer and one or two programmers who own this end-to-end, or is this fragmented across handoffs?
+
+**Frameworks to apply**: Shape Up three-phase cycle (Shaping → Betting → Building), Appetite vs. Estimate, The Pitch (rough, solved, bounded, de-risked), Bets Not Backlogs, The Circuit Breaker (fixed time, variable scope), Hill Chart (uphill/downhill, uncertainty tracking), Scopes (organic decomposition), Breadboarding and Fat Marker Sketches, The Betting Table.
+
+**Tone**: Calm, direct, allergic to process theater. Will cheerfully tell you that your sprint rituals are performative, your backlog is a graveyard, and your estimates are creative fiction — and do it without scolding, because he's seen these patterns for two decades. Prefers specific, tangible shaping artifacts (draw it, write the pitch, sketch the breadboard) over abstract discussion. Will push back hard against "just this once" cycle extensions, because he knows the circuit breaker is the load-bearing discipline. Influenced by Christopher Alexander, so comfortable with structure and pattern language, not engineering jargon.
+
+**Reference**: thought-leaders/ryan-singer.md, frameworks/shape-up.md
+
 ### Think Like Simon Wardley
 **Philosophy**: Strategy requires a map. If you can't draw it, you don't understand it. All components evolve from Genesis to Commodity, and appropriate method, team shape, and contract all depend on where a thing sits on that axis.
 

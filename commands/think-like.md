@@ -12,6 +12,7 @@ description: Analyze a situation from a specific thought leader's perspective. U
    - **Charity Majors** — observability, operational ownership, engineer/manager pendulum, production as truth
    - **Fisher & Abbott** — scalability patterns (Scale Cube), fault isolation (swim lanes), architecture for growth
    - **Simon Wardley** — Wardley Mapping, evolution axis, doctrine, climatic patterns, stratagems, Pioneers/Settlers/Town Planners
+   - **Ryan Singer** — Shape Up, appetite vs. estimate, shaping, betting, the circuit breaker, hill charts, cycles and cooldowns
 
 2. Understand the situation briefly — they came for a specific perspective, not a generic intake.
 
@@ -34,4 +35,6 @@ description: Analyze a situation from a specific thought leader's perspective. U
 - thought-leaders/charity-majors.md
 - thought-leaders/fisher-and-abbott.md
 - thought-leaders/simon-wardley.md
+- thought-leaders/ryan-singer.md
 - frameworks/wardley-mapping.md
+- frameworks/shape-up.md
