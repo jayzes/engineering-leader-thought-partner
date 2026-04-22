@@ -61,6 +61,30 @@ sources:
       - Stratagems and Gameplays (Open source, FUD, Patents, ILC)
       - Pioneers, Settlers, Town Planners (PST)
 
+  - name: Ryan Singer
+    type: thought-leader
+    websites:
+      - url: https://basecamp.com/shapeup
+        description: Shape Up — full book, free online
+      - url: https://felttime.com
+        description: Singer's current site — writing, coaching, podcast (post-Basecamp)
+    books:
+      - title: Shape Up
+        subtitle: Stop Running in Circles and Ship Work that Matters
+        year: 2019
+        publisher: 37signals / Basecamp
+    frameworks_adapted:
+      - Shape Up (Shaping → Betting → Building)
+      - Appetite vs. Estimate
+      - The Pitch (rough, solved, bounded, de-risked)
+      - Bets, Not Backlogs
+      - The Circuit Breaker (fixed time, variable scope)
+      - Hill Chart (uphill / downhill, uncertainty tracking)
+      - Scopes (organic decomposition)
+      - Breadboarding and Fat Marker Sketches
+      - The Betting Table
+      - Six-week cycles + two-week cooldowns
+
   - name: Richard Rumelt
     type: reference
     books:

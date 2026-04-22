@@ -1,5 +1,18 @@
 # Changelog
 
+## 2.2.0 — 2026-04-21
+
+### New Thought Leader
+- **Ryan Singer** — Shape Up methodology, Appetite vs. Estimate, the Pitch (rough, solved, bounded, de-risked), Bets Not Backlogs, the Circuit Breaker (fixed time, variable scope), Hill Chart (uphill / downhill, uncertainty tracking), Scopes (organic decomposition), Breadboarding and Fat Marker Sketches, the Betting Table, six-week cycles + two-week cooldowns
+
+### New Framework
+- `frameworks/shape-up.md` — standalone guide to Shape Up covering the three phases (Shaping → Betting → Building), the cycle cadence, shaping techniques, the pitch structure, bets vs. backlogs, the circuit breaker, hill charts, and common failure patterns
+
+### Integrations
+- `/think-like` now offers a Ryan Singer perspective with his characteristic questions, frameworks, and tone
+- `CLAUDE.md` references Shape Up, Appetite vs. Estimate, Bets Not Backlogs + Circuit Breaker, and Hill Chart as first-class frameworks
+- New topic areas: product development cadence, shaping work, appetite-based sizing, tracking uncertainty, running betting tables
+
 ## 2.1.0 — 2026-04-17
 
 ### New Thought Leader

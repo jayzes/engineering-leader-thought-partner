@@ -17,7 +17,7 @@ Ideas for expanding the Engineering Leader Thought Partner.
 - [ ] **Team Topologies** - Stream-aligned, platform, enabling, complicated subsystem teams
 - [ ] **DORA Metrics** - Deployment frequency, lead time, MTTR, change failure rate
 - [ ] **Spotify Model** - Squads, tribes, chapters, guilds (with caveats)
-- [ ] **Shape Up** - Basecamp's approach to product development
+- [x] **Shape Up** - Basecamp's approach to product development
 - [ ] **Accelerate Capabilities** - Technical and organizational practices
 
 ## Additional Templates
