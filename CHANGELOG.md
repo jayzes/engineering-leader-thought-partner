@@ -1,5 +1,18 @@
 # Changelog
 
+## 2.3.0 — 2026-04-21
+
+### New Thought Leader
+- **Andy Grove** — Managerial Output Equation (output = team output + influenced-team output), Managerial Leverage (high / low / negative activity), Task-Relevant Maturity (structured → coaching → delegating), Paired Indicators, OKRs (ambitious, quarterly, public, decoupled from comp), the 1:1 as the subordinate's meeting, Meetings as a Medium (process-oriented vs. mission-oriented), Strategic Inflection Points and the 10X Force, Free Discussion / Clear Decision / Full Support, Hybrid Organizations (mission + functional with dual reporting), Training as Highest-Leverage Activity
+
+### New Framework
+- `frameworks/high-output-management.md` — standalone guide covering the managerial output equation, leverage, task-relevant maturity, paired indicators, OKRs, meetings as a medium, the 1:1, strategic inflection points, hybrid orgs, decision-making discipline, training, and common failure patterns. Includes relationship to Engineering Strategy, Staff Archetypes, BICEPS, Shape Up, Technical Coherence, Observability-Driven Development, AKF Scale Cube, and Wardley Mapping
+
+### Integrations
+- `/think-like` now offers an Andy Grove perspective with his characteristic questions, frameworks, and tone
+- `CLAUDE.md` references the Managerial Output Equation, Managerial Leverage, Task-Relevant Maturity, Paired Indicators, OKRs, the 1:1, Meetings as a Medium, Strategic Inflection Points / 10X Forces, and Free Discussion / Clear Decision / Full Support as first-class frameworks
+- New topic areas: managerial leverage, task-relevant maturity, 1:1s and recurring meetings, indicators and metrics, OKRs as Grove designed them, strategic inflection points, decision-making discipline, training as high-leverage activity
+
 ## 2.2.0 — 2026-04-21
 
 ### New Thought Leader

@@ -5,6 +5,7 @@ Ideas for expanding the Engineering Leader Thought Partner.
 ## Additional Thought Leaders
 
 - [x] **Charity Majors** - Observability, engineering culture, management
+- [x] **Andy Grove** - Managerial leverage, TRM, OKRs, strategic inflection points (High Output Management, Only the Paranoid Survive)
 - [ ] **Camille Fournier** - Engineering management (The Manager's Path)
 - [ ] **Patrick Kua** - Tech lead patterns, talking with tech leads
 - [ ] **Gergely Orosz** - Engineering leadership (The Pragmatic Engineer)

@@ -1,6 +1,6 @@
 # Engineering Leader Thought Partner
 
-A Claude Code plugin that acts as a conversational engineering leadership advisor. Based on the work of Will Larson, Jack Danger, Lara Hogan, Charity Majors, Mike Fisher & Martin Abbott, Simon Wardley, and Ryan Singer.
+A Claude Code plugin that acts as a conversational engineering leadership advisor. Based on the work of Will Larson, Jack Danger, Lara Hogan, Charity Majors, Mike Fisher & Martin Abbott, Simon Wardley, Ryan Singer, and Andy Grove.
 
 ## Philosophy
 
@@ -98,6 +98,8 @@ This thought partner synthesizes ideas from:
   - Book: *Wardley Maps: Topographical Intelligence in Business* (Creative Commons)
 - **Ryan Singer** - [basecamp.com/shapeup](https://basecamp.com/shapeup), [felttime.com](https://felttime.com)
   - Book: *Shape Up: Stop Running in Circles and Ship Work that Matters* (free online)
+- **Andy Grove** - Former CEO of Intel, originator of OKRs
+  - Books: *High Output Management* (1983), *Only the Paranoid Survive* (1996)
 
 ## Acknowledgments
 

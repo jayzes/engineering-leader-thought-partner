@@ -85,6 +85,35 @@ sources:
       - The Betting Table
       - Six-week cycles + two-week cooldowns
 
+  - name: Andy Grove
+    type: thought-leader
+    biography: Co-founder, third employee, former CEO and Chairman of Intel (1968–2005). Chemical engineer; co-invented the MOS semiconductor process. Mentor to a generation of Silicon Valley operators. Introduced OKRs at Intel; John Doerr later brought them to Google.
+    books:
+      - title: High Output Management
+        year: 1983
+        publisher: Random House / Vintage (reissued 1995)
+        note: Foundational text on managing knowledge-work organizations
+      - title: Only the Paranoid Survive
+        subtitle: How to Exploit the Crisis Points That Challenge Every Company
+        year: 1996
+        publisher: Crown Business
+      - title: Swimming Across
+        subtitle: A Memoir
+        year: 2001
+    frameworks_adapted:
+      - Managerial Output Equation (manager's output = team output + influenced-team output)
+      - Managerial Leverage (high / low / negative leverage activity)
+      - Task-Relevant Maturity (TRM) — structured / coaching / delegating
+      - Paired Indicators (single metrics are always gameable)
+      - OKRs — Objectives and Key Results (ambitious, quarterly, public, decoupled from comp)
+      - The 1:1 (subordinate's meeting, 60–90 minutes, TRM-calibrated cadence)
+      - Meetings as a Medium (process-oriented vs. mission-oriented)
+      - Strategic Inflection Points and the 10X Force
+      - Free Discussion, Clear Decision, Full Support
+      - Hybrid Organizations (mission + functional with dual reporting)
+      - Training as Highest-Leverage Activity
+      - The Production Principle (limiting step, lead indicators, quality control, variable capacity)
+
   - name: Richard Rumelt
     type: reference
     books:
