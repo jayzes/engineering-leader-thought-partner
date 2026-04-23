@@ -171,24 +171,79 @@ OKRs as practiced badly produce what Grove's system was designed to prevent: cas
 
 ### Strategic Inflection Points and the 10X Force
 
-From *Only the Paranoid Survive* (1996). A **strategic inflection point (SIP)** is a moment when the fundamentals of a business shift so dramatically that the old strategy and often the old business model no longer work.
+From *Only the Paranoid Survive* (1996). A **strategic inflection point (SIP)** is a moment when the fundamentals of a business shift so dramatically that the old strategy and often the old business model no longer work. Grove's metaphor: you're walking along a valley floor and the ground tilts — what used to be flat is now uphill, and gravity has quietly changed direction.
 
 Diagnostic — the **10X force**: apply Porter's five forces (competitors, suppliers, customers, new entrants, substitutes) plus Grove's sixth (complementors). Ask: has one of these forces become 10× more powerful than it was?
+
+Grove's addition of **complementors** is substantive, not cosmetic. Incumbents often miss SIPs because the decisive shift happens at the complementor layer rather than among direct competitors — the firms whose products make yours more valuable (operating systems for chips, browsers for servers, CI platforms for source control). Netscape didn't kill Microsoft by competing with Windows; it changed what complemented Windows.
 
 Signs an SIP is underway:
 - Basis of competition has shifted (e.g., from performance to cost, or from cost to integration)
 - A substitute technology isn't 10% better — it's 10× better or 10× cheaper
-- A complementor (platform, ecosystem partner) has changed the game
-- Old rules of thumb are producing surprising results
-- **Dissonance in the organization**: senior people saying contradictory things about what's actually happening
+- A complementor (platform, ecosystem partner, standard) has changed the game
+- Old rules of thumb are producing surprising results — pricing doesn't convert, hiring profiles don't succeed, channels don't scale
+- **Dissonance in the organization**: senior people saying confident but contradictory things about what's actually happening. Grove treats this as one of the clearest early signals.
 
 Grove's counsel:
-- **Look early.** By the time an SIP is obvious, the window to act is mostly closed.
-- **Listen to the Cassandras.** Middle managers and field-facing roles see the shift before executives.
+- **Look early.** By the time an SIP is obvious from the C-suite, the window to act is mostly closed.
+- **Listen to the Cassandras.** Middle managers and field-facing roles see the shift before executives. "When spring comes, snow melts first at the periphery."
+- **Treat the information-filtering problem as structural.** Every layer between the periphery and the CEO shapes reports in its own interest. Good news travels faster than bad. Counter-practice: spend deliberate time at the periphery as a primary information channel.
 - **Experiment at the margin.** Run the new model at small scale before committing.
 - **Be willing to abandon the old business.** Sunk costs and identity are the two most common reasons incumbents miss SIPs.
 
 Intel's exit from memory in 1985 is Grove's canonical example. The company's identity *was* memory. The 10× force was Japanese manufacturing cost structure. Grove and Gordon Moore asked: "if we got kicked out and the board brought in new management, what would they do?" The answer: exit memory. They did.
+
+Intel's Pentium FDIV crisis (1994) is the second canonical case. A floating-point bug became a public-relations firestorm when Intel initially framed it as a minor issue affecting only statisticians. Grove's retrospective lesson: the basis of competition had shifted under him — Intel had become a consumer brand without recognizing it, and consumer-trust rules now applied. An SIP at the customer-relationship layer.
+
+### Let Chaos Reign, Then Rein In Chaos
+
+Grove's two-phase posture for navigating an SIP. When the ground tilts, you don't yet know which direction is up. The wrong response is to commit early to a single bet based on old mental models. The other wrong response is permanent indecision dressed up as "optionality."
+
+**Phase 1 — Let chaos reign.** Deliberately allow experimentation, parallel bets, contradictory strategies, and loud internal debate. Tolerate the discomfort of a company that doesn't have a single narrative. Fund multiple prototypes of the new model. Protect the Cassandras; do not silence dissonance.
+
+**Phase 2 — Rein in chaos.** Once one of the experiments shows the shape of the new business, commit hard. Kill the alternatives. Reallocate resources massively (at Intel's memory exit, 80% of staff). Announce the new direction unambiguously. Stop re-debating it.
+
+Failure modes are symmetric:
+- Reining in too early commits the company to a guess
+- Letting chaos reign too long burns the organization out and confuses the market
+
+Peacetime-trained CEOs reach for rein-in-chaos because they are uncomfortable with the first phase. Visionary founders often refuse to rein in, mistaking chaos for creativity. The skill is knowing which phase you're in and switching deliberately when the evidence warrants.
+
+### The Valley of Death and the Two-Curve Transition
+
+What an SIP actually looks like on a chart: two curves. The **old business** is still profitable but flattening. The **new business** is rising but not yet large enough to support the company. Between them is the **Valley of Death** — the period where you've invested enough in the new that you're cannibalizing the old, but the new isn't yet big enough to replace it.
+
+Three common failure modes:
+- **Never cross**: leadership sees the new curve but refuses to commit because the old is still profitable. Eventually disrupted.
+- **Hedge forever**: both businesses get half-funded; neither wins; margins erode; the organization becomes incoherent.
+- **Commit too early**, before a visible new curve exists, and run out of money.
+
+Engineering leadership applications: platform migrations, language/framework rewrites, and org restructures all have Valley-of-Death shapes. Running the old monolith alongside the new microservices "until migration is complete" is the Valley of Death in miniature. The question is not "how do we avoid the valley?" — you can't — but "how fast and explicitly can we cross it?"
+
+### The Self-Exile Test
+
+Grove and Gordon Moore's decision technique from the 1985 memory exit. Unable to agree on what to do, Grove asked: *"If we got kicked out and the board brought in a new CEO, what do you think they would do?"* Answer: "They'd get us out of memory." Grove: "Why don't you and I walk out the door, come back in, and do it ourselves?"
+
+Two moves:
+1. Imagine you have been fired. A new person has been hired — no history with the business, no friends on the team, no public commitments, no hours spent building the old strategy.
+2. Ask what that person would do in their first 90 days. The answer is usually obvious.
+
+Then do that thing.
+
+The technique isolates "what is the right thing to do?" from "what would it cost me to admit this?" Sunk cost lives in the tangle between those two questions. The self-exile test untangles them.
+
+Applications: killing a project that carries your identity, rewriting a system from scratch, exiting a market, letting go an executive you hired and advocated for. In all of these, the self-exile test cuts through where "let's discuss the pros and cons" cannot.
+
+### Peacetime vs. Wartime Leadership (Horowitz Extending Grove)
+
+Ben Horowitz's 2011 essay "[Peacetime CEO/Wartime CEO](https://a16z.com/peacetime-ceo-wartime-ceo/)" explicitly builds on *Only the Paranoid Survive*, casting the pre- and post-SIP worlds as two management regimes demanding different postures. Horowitz names Grove as the archetypal wartime CEO.
+
+- **Peacetime**: dominant market position, growing market, no imminent existential threat. Maximize opportunity, expand the pie, invest in culture, develop people for the long term.
+- **Wartime**: a 10× force has landed; focus collapses to survival. Violates protocol to win, details-obsessed, intolerant of deviation, heightens contradictions, paranoid.
+
+Horowitz's core claim: almost all management literature describes peacetime. Grove (*OtPS*) and Steve Jobs (Apple 1997 return) are the two most-documented wartime CEOs.
+
+The principle: **know which mode you're in, and match the mode.** Peacetime playbook in wartime gets the company killed (consensus processes, respectful pacing, long runways for underperformers). Wartime playbook in peacetime corrodes the culture (urgency theater, micromanagement, heightened contradictions over nothing). Grove's 10X-force test is the diagnostic. The skill is mode-switching — recognizing the transition and shifting operating posture explicitly, including announcing it to the organization.
 
 ### Hybrid Organizations — Mission + Functional
 
@@ -336,6 +391,15 @@ Managing every task for a given report with the same style. Over-structured on t
 ### The Uncalled Strategic Inflection Point
 Organizations that can see the shift but can't act on it — usually because the old business is still profitable and acting would require killing it. Grove's Intel-memory story is the canonical warning. Fix: ask "what would new management do?" and listen to the answer.
 
+### The Half-Exit
+An organization nominally transitioning to the new model but keeping the old business on life support. Both get half-funded. The Valley of Death without the crossing. Predictable outcomes: margins erode, focused competitors outrun the new business, the old business dies slowly instead of quickly. Fix: name the transition explicitly, set the crossing timeline, commit resources unambiguously.
+
+### Mode Mismatch
+Running a peacetime playbook in wartime (the company is in existential threat, but leadership is still running consensus processes with respectful pacing and long runways for underperformers) or a wartime playbook in peacetime (nothing is on fire, but the CEO is generating urgency theater that corrodes the culture). Fix: diagnose using Grove's 10X-force test. If a force has gone 10× in the last year, it's wartime — act accordingly and announce the switch. If not, cool the urgency and rebuild calendar for peacetime work.
+
+### The Premature Rein-In
+Leadership of an organization in phase 1 of an SIP (chaos should reign) reaches for phase 2 (rein in) because they are uncomfortable with the ambiguity. Commits the company to a guess before a real signal has emerged. Often produced by board pressure for "a clear story." Fix: name the phase explicitly. Phase 1 is a leadership mode, not a failure of strategy.
+
 ## Questions for Any Decision
 
 1. **What's the leverage?** Of the options, which activity affects the most people, at the most critical moment, with the most lasting effect?
@@ -346,6 +410,9 @@ Organizations that can see the shift but can't act on it — usually because the
 6. **What's the 10× force?** In this industry, right now, what has become ten times more powerful in the last year? Have we responded?
 7. **Free discussion, clear decision, full support — are all three present?** If re-litigation is happening in hallways, one of the three failed.
 8. **Am I training enough?** When did I last teach someone a capability they needed? If it was last quarter, I'm under-investing in the highest-leverage activity I have.
+9. **What mode are we in — peacetime or wartime?** Is there a 10× force on the landscape right now? If yes, am I running a wartime operating posture? If no, am I inadvertently generating urgency theater that corrodes the culture?
+10. **If I got fired tomorrow and the board hired a new leader, what would they do in their first 90 days?** If the answer differs materially from what I'm actually doing, the gap is where sunk cost is hiding. Self-exile and do the thing.
+11. **What phase of the SIP are we in — chaos or rein-in?** If we're in phase 1 and I'm reaching for a single narrative, I'm reining in too early. If we're in phase 2 and we're still hedging, I'm refusing to commit.
 
 ## Relationship to Other Frameworks
 
@@ -364,4 +431,5 @@ Organizations that can see the shift but can't act on it — usually because the
 - *Only the Paranoid Survive* by Andy Grove — for the strategic inflection point framework and Intel's memory-to-microprocessor story
 - John Doerr, *Measure What Matters* (2018) — popularization of OKRs, with attribution to Grove; useful for OKRs in practice at Google, Gates Foundation, and others
 - Ben Horowitz, *The Hard Thing About Hard Things* — extends Grove's operating discipline into the CEO context; Horowitz explicitly cites Grove throughout
+- Ben Horowitz, "[Peacetime CEO/Wartime CEO](https://a16z.com/peacetime-ceo-wartime-ceo/)" (a16z, 2011) — the essay frames Grove's pre- and post-SIP worlds as two distinct management regimes, names Grove as the archetypal wartime CEO, and argues that almost all management literature is peacetime-biased
 - Y Combinator "Management" sessions and Andreessen Horowitz writings — operationalize Grove's principles for early-stage companies

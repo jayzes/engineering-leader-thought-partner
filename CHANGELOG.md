@@ -1,5 +1,28 @@
 # Changelog
 
+## 2.4.0 — 2026-04-22
+
+### Enriched Thought Leader
+- **Andy Grove** — expanded with material from *Only the Paranoid Survive* (1996) and Ben Horowitz's "Peacetime CEO/Wartime CEO" essay
+
+### New Frameworks
+- **Let Chaos Reign, Then Rein In Chaos** — Grove's two-phase posture for navigating a strategic inflection point; tolerate parallel bets and dissonance in phase 1, then commit hard and reallocate massively in phase 2
+- **The Valley of Death and the Two-Curve Transition** — the period where the old business is being cannibalized but the new one isn't yet large enough to sustain the company; failure modes (never cross, hedge forever, commit too early) and the case for explicit crossing over half-exits
+- **The Self-Exile Test** — "if the board brought in a new CEO, what would they do in their first 90 days?" — Grove and Moore's technique for escaping sunk-cost bias, applied to the 1985 Intel memory exit
+- **Peacetime vs. Wartime Leadership (via Horowitz)** — mode-switching between growth-mode and existential-threat mode; Grove as the archetypal wartime CEO; the diagnostic is Grove's 10× force test
+
+### Expanded
+- Framework #8 (Strategic Inflection Points and the 10X Force) now covers complementors as Grove's substantive addition to Porter's five forces, the structural information-filtering problem above the CEO, and dissonance at the senior level as an early diagnostic
+- New Core Philosophy section on paranoia as a disciplined scanning posture, not an emotional state
+- Historical Context adds the Pentium FDIV crisis (1994) as a second canonical SIP case and the Grove/Moore self-exile moment at the memory exit
+- Six new entries in Quotable (including Horowitz's "All I have in this world is time" Grove moment)
+- Five new steps in How to Apply His Thinking (name the mode, self-exile test, stage the SIP phases, plan the Valley crossing, protect the periphery as information channel)
+
+### Integrations
+- `frameworks/high-output-management.md` gains new sections on the four new frameworks, new Common Patterns (Half-Exit, Mode Mismatch, Premature Rein-In), and new Questions for Any Decision
+- `/think-like` — Grove's characteristic questions expanded with mode-awareness, SIP-phase, Valley-of-Death, and self-exile prompts
+- `CLAUDE.md` — new first-class framework entries for the four new frameworks; new topic areas (navigating SIPs, crossing the Valley of Death, the self-exile test, peacetime vs. wartime leadership); Horowitz added as a source
+
 ## 2.3.0 — 2026-04-21
 
 ### New Thought Leader
